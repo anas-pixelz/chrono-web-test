@@ -16,7 +16,7 @@
     position: fixed;
     left: 50%;
     bottom: 15px;
-    height: 90px;
+    height: 65px;
     transform: translateX(-50%);
     width: 90%;
     padding: 0 10px;
@@ -33,13 +33,13 @@
 }
 
 .nav-bar .icon {
-    height: 35px;
-    width: 35px;
+    height: 24px;
+    width: 24px;
     object-fit: contain;
 }
 
 .nav-bar .nav-item .label {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     margin-top: 4px;
     font-family: monospace, sans-serif;
@@ -57,11 +57,11 @@
 /* Active floating button state */
 .nav-item.active {
     position: relative;
-    top: -25px;
+    top: -15px;
     /* Lifts the item above the bar */
     background-color: #ffffff;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 
     /* Semi-transparent background */
@@ -78,8 +78,8 @@
 
 /* Make icon slightly larger inside the active circle */
 .nav-item.active .icon {
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
 }
 
 /* Hide label on active item */
@@ -88,7 +88,7 @@
 }
 
 .label {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     margin-top: 4px;
     font-family: monospace, sans-serif;
